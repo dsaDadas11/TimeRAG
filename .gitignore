@@ -1,0 +1,30 @@
+# Credentials and local environment files
+.cdsapirc
+.env
+.env.*
+!.env.example
+
+# Python caches and virtual environments
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.venv/
+venv/
+
+# Jupyter and editor metadata
+.ipynb_checkpoints/
+.vscode/
+.idea/
+
+# Downloaded model weights and generated datasets
+chronos/model.safetensors
+shaanxi_cities_temperature/
+
+# Training checkpoints
+*.pt
+
+# Operating-system files
+.DS_Store
+Thumbs.db
